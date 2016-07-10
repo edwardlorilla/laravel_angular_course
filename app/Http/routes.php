@@ -11,7 +11,7 @@
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/api/v1/employees/{id?}', 'Employees@index');
